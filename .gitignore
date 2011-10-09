@@ -3,6 +3,7 @@ app/bootstrap_cache.php.cache
 app/phpunit.xml
 app/cache/*
 app/logs/*
+app/config/parameters.ini
 
 vendor/*
 
@@ -10,3 +11,10 @@ web/bundles/*
 web/uploads/*
 web/css/*
 web/js/*
+
+#Si trabajamos con netbeans quitamos el directorio de proyecto
+nbproject/
+#Si trabajamos con emacs
+*~
+#Si trabajamos con vim
+*.swp
